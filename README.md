@@ -22,10 +22,10 @@ Each conversion specification is introduced by the percentage character. The arg
 
 ## Authorized function(s)  
 
-    • write(2)  
-    • malloc  
-    • free  
-    • va_start, va_arg, va_copy, va_end  
+  write(2)  
+  malloc  
+  free  
+  va_start, va_arg, va_copy, va_end  
     
 ## (Obvious) unauthorized functions  
 

@@ -13,7 +13,7 @@ int my_strlen(const char *);
 void print_char(char);
 int absolute(int);
 void rev_string(char *, char *);
-char* my_strcpy(char *, char *);
+char *my_strcpy(char *, char *);
 char handle_hex(int);
 void print_pointer(void *);
 char *my_itoa(int, char *, int);

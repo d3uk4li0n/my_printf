@@ -9,7 +9,7 @@ int main(void){
     my_printf("%u\n", -345);
     my_printf("%o\n", 100); 
     my_printf("%c, %c, %c, %c, %c", 'h', 'e', 'l', 'l', 'o');
-   	my_printf("\n");	
-   	 
+   	my_printf("\n");
+    
     return 0;
 }

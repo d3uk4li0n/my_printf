@@ -12,13 +12,13 @@ The format string is composed of zero or more directives: ordinary characters (w
 
 Each conversion specification is introduced by the percentage character. The arguments must correspond properly (after type promotion) with the conversion specifier. After the percentage, the following appear in sequence:  
 
-    d, o, u, x The int (or appropriate variant) argument is converted to signed decimal (d). unsigned octal (o), unsigned decimal (u), unsigned hexadecimal (x).  
+   d, o, u, x The int (or appropriate variant) argument is converted to signed decimal (d). unsigned octal (o), unsigned decimal (u), unsigned hexadecimal (x).  
     
-    c The int argument is converted to an unsigned char, and the resulting character is written.  
+   c The int argument is converted to an unsigned char, and the resulting character is written.  
     
-    s The char * argument is expected to be a pointer to an array of character type (pointer to a string). Characters from the array are written up to (but not including) a terminating NUL character.  
+   s The char * argument is expected to be a pointer to an array of character type (pointer to a string). Characters from the array are written up to (but not including) a terminating NUL character.  
     
-    p The void * pointer argument is printed in hexadecimal.  
+   p The void * pointer argument is printed in hexadecimal.  
 
 ## Authorized function(s)  
 
